@@ -57,14 +57,7 @@
     display: none;
 }
 
-@media screen and (min-width: 1024px) { 
-    .lista-menu__titulo{
-    font-size: 30px;
-    font-family: var(--fonte-secundaria);
-    color:rgb(43,226,101);
-    display: block;
-    }
-
+@media screen and (min-width: 1024px) {
    .titulo__cabecalho{
     font-size: 30px;
     font-family: var(--fonte-secundaria) ;

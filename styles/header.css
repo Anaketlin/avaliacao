@@ -22,6 +22,8 @@
 }
 .container__imagem{
     padding: 1em;
+    width: 41px;
+    height: 41px;
 }
 
 .lista-menu{
@@ -56,13 +58,26 @@
 .titulo__cabecalho{
     display: none;
 }
+.imagem__maior{
+    display: none;
+}
+.frase{
+    display: flex;
+}
 
 @media screen and (min-width: 1024px) {
    .titulo__cabecalho{
     font-size: 30px;
     font-family: var(--fonte-secundaria) ;
-    color:rgb(43,226,101);
+    color:rgb(253, 4, 4);
     display: block;
+   }
+    
+   .frase{ont-size: 30px;
+    font-family: var(--fonte-secundaria) ;
+    color:rgb(0, 0, 0);
+    display: block;
+
    }
 
 }

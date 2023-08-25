@@ -1,6 +1,6 @@
 .Imagem{
-    width: 150px!important;
-    height: 200px!important;
+    width: 41px!important;
+    height: 41px!important;
 }
 .div-todasimagens{
     display: grid;
@@ -20,14 +20,16 @@
     .Imagem{
     font-size: 20px;
     font-family: var(--fonte-secundaria);
-    color:rgb(43,226,101);
+    color:rgb(43, 144, 226);
     display: block;
+    width: 150px!important;
+    height: 200px!important;
     }
     
     .titulo{
         font-size: 30px;
         font-family: var(--fonte-secundaria);
-        color:rgb(226, 43, 186);
+        color:rgb(0, 0, 0);
         display: block;
         }
 }

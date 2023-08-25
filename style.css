@@ -1,7 +1,7 @@
 @import url(styles/header.css);
 @import url(styles/grid2.css);
 :root{
-    --cor-de-fundo: #77df6d;
+    --cor-de-fundo: #f12929;
     --branco: #FFFFFF;
     --amarelo:  #FECD2F;
     --roxo-degrade: 
@@ -10,4 +10,7 @@
 }
 body{
     background-color: var(--cor-de-fundo);
+}
+.frase{
+    position: relative;
 }

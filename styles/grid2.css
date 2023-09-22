@@ -1,6 +1,7 @@
+
 .Imagem{
-    width: 41px!important;
-    height: 41px!important;
+    width: 80px!important;
+    height: 60px!important;
 }
 .div-todasimagens{
     display: grid;
@@ -12,9 +13,8 @@
 .titulo{
     font-size: 10px;
     color: rgb(146, 83, 204);
-    margin-bottom: 8px;
-    text-align: left;
-    display: none;
+    margin-bottom: 7px;
+    text-align: center;
 }
 @media screen and (min-width: 1024px) { 
     .Imagem{
